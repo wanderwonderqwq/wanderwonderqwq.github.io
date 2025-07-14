@@ -3,12 +3,13 @@ $.ajax({
     type: 'get',
     url: 'https://apis.map.qq.com/ws/location/v1/ip',
     data: {
-        key: 'M6BZ-ZB4Y3-KFJ3S-O37CW-CFUBS-EOFEO',
+        key: 'ZM6BZ-ZB4Y3-KFJ3S-O37CW-CFUBS-EOFEO',
         output: 'jsonp',
     },
     dataType: 'jsonp',
     success: function (res) {
         ipLoacation = res;
+        
     }
 })
 function getDistance(e1, n1, e2, n2) {
