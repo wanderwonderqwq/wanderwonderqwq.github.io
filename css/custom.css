@@ -8,13 +8,6 @@
   background: transparent !important;
 }
 
-/* 白天模式遮罩透明 */
-/* #footer::before {
-  background: transparent !important;
-} */
-/* #page-header::before {
-  background: transparent !important;
-} */
 
 /* 夜间模式遮罩透明 */
 [data-theme="dark"] #footer::before {
@@ -35,7 +28,7 @@
   transform: translate(-50%, -50%) !important; /* 将元素的中心点对齐父容器的中心 */
 }
 #nav .menus_items .menus_item {
-  padding: 0 0 0 8px !important;
+  padding: 0 0 0 12px !important;
 }
 /* 子菜单横向展示 */
 #nav .menus_items .menus_item:hover .menus_item_child {
@@ -44,6 +37,10 @@
 /* 这里的3是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(3) .menus_item_child {
   left: -30px;
+}
+
+.menus_items .menus_item:nth-child(7) .menus_item_child {
+  left: -40px;
 }
 
 
