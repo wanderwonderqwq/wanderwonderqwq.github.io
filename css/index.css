@@ -6558,10 +6558,3 @@ blockquote.pullquote.right {
 #algolia-search .search-dialog #algolia-info div {
   display: inline;
 }
-#algolia-search .search-dialog #algolia-info .algolia-poweredBy {
-  float: right;
-  vertical-align: text-top;
-}
-#algolia-search .search-dialog #algolia-info .algolia-poweredBy svg {
-  height: 1.1em;
-}

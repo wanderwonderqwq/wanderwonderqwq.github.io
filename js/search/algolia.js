@@ -141,9 +141,9 @@ window.addEventListener('load', () => {
         }
       }
     }),
-    instantsearch.widgets.poweredBy({
-      container: '#algolia-info > .algolia-poweredBy'
-    }),
+    // instantsearch.widgets.poweredBy({
+    //   container: '#algolia-info > .algolia-poweredBy'
+    // }),
     instantsearch.widgets.pagination({
       container: '#algolia-pagination',
       totalPages: 5,
